@@ -54,7 +54,7 @@ main .form-3 {
     transition: 1s;
 }
 main:hover .form-3 {
-    transform:translateX(150px) rotate(-90deg) ; 
+    transform:translateX(150px) rotate(90deg) ; 
 }
  .form-4 {
     background-color:yellow ;
@@ -63,5 +63,5 @@ main:hover .form-3 {
     transition: 1s;
 }
 main:hover .form-4 {
-    transform:translateX(-150px) rotate(90deg) ;
+    transform:translateX(-150px) rotate(-90deg) ; 
 }
