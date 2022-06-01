@@ -24,14 +24,17 @@ position: absolute;
     display: grid;
     grid-template-columns:  1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    transition-duration: 0.2s;
+
+  
 }
+section div {
+    transition: 1s;}
  .form-1 {
     
     background-color: steelblue;
     grid-column: 1/2;
     grid-row: 1/2;
-    transition: 1s;
+ 
 
 }
 main:hover .form-1 {
@@ -42,7 +45,7 @@ main .form-2 {
     background-color:dimgray ;
     grid-column: 2/3;
     grid-row: 1/2;
-    transition: 1s;
+
 }
 main:hover .form-2 {
     transform:translateX(150px) rotate(-90deg) ; 
@@ -51,7 +54,6 @@ main .form-3 {
     background-color:rosybrown ;
     grid-column: 2/3;
     grid-row: 2/3;
-    transition: 1s;
 }
 main:hover .form-3 {
     transform:translateX(150px) rotate(90deg) ; 
@@ -60,7 +62,7 @@ main:hover .form-3 {
     background-color:yellow ;
     grid-column: 1/2;
     grid-row: 2/3;
-    transition: 1s;
+
 }
 main:hover .form-4 {
     transform:translateX(-150px) rotate(-90deg) ; 
